@@ -1,8 +1,10 @@
 {
     "buildCommand": "npm install --legacy-peer-deps && npm run build",
-    "ignoreCommand": "exit 1", 
     "installCommand": "npm install --legacy-peer-deps",
     "outputDirectory": "build",
-    "framework": "create-react-app"
+    "framework": "create-react-app",
+    "env": {
+      "NODE_OPTIONS": "--openssl-legacy-provider"
+    }
   }
   
