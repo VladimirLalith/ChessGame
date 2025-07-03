@@ -1,7 +1,9 @@
 {
-    "buildCommand": "npm install --legacy-peer-deps && npm run build",
-    "outputDirectory": "build",
-    "ignoreCommand": "git diff --quiet HEAD^ HEAD",
-    "framework": null
+    "build": {
+      "env": {
+        "NODE_OPTIONS": "--openssl-legacy-provider"
+      }
+    },
+    "buildCommand": "npm install --legacy-peer-deps && npm run build"
   }
   
