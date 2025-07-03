@@ -20,7 +20,7 @@ A browser-based chess game built with React and TypeScript.
 
 
 ```bash
-git clone https://github.com/your-username/ChessGame.git
+git clone https://github.com/VladimirLalith/ChessGame.git
 cd ChessGame
 npm install
 npm start
